@@ -64,3 +64,12 @@ alias <사용할 명령어>="<명령어 내용>"
 # Pycharm 실행
 alias py="open -a /Applications/PyCharm\ CE.app/Contents/MacOS/pycharm"
 ```
+
+
+## Pycharm 터미널에서 UnicodeEncodeError날 때
+
+**~/.zshrc**
+
+```
+export PYTHONIOENCODING=UTF-8
+```
